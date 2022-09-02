@@ -25,11 +25,53 @@ class Unidades extends BaseController
         echo view('footer');
     }
 
+    public function eliminados($activo = 2)
+    {
+        $unidades = $this->unidades->where('activo', $activo)->findAll();
+
+        $data = ['titulo' => 'unidades eliminadas', 'datos' => $unidades];
+
+        echo view('header');
+        echo view('unidades/eliminados', $data);
+        echo view('footer');
+    }
+
     public function nuevo()
     {
         $data = ['titulo' => 'agregar unidad'];
         echo view('header');
-        echo view('unidades/nuevo', $data);
+        echo view('/unidades/nuevo', $data);
         echo view('footer');
+    }
+
+    public function insertar()
+    {
+
+        $this->unidades->save(['nombre' => $this->request->getPost('nombre'), 'nombre_corto' => $this->request->getPost('nombre_corto')]);
+        return redirect()->to(base_url() . '/unidades');
+    }
+
+
+    public function editar($id)
+    {
+        $unidad = $this->unidades->where('id', $id)->first();
+        $data = ['titulo' => 'Editar unidad', 'datos' => $unidad];
+        echo view('header');
+        echo view('unidades/editar', $data);
+        echo view('footer');
+    }
+
+    public function actualizar()
+    {
+
+        $this->unidades->update($this->request->getPost('id'), ['nombre' => $this->request->getPost('nombre'), 'nombre_corto' => $this->request->getPost('nombre_corto')]);
+        return redirect()->to(base_url() . '/unidades');
+    }
+
+    public function eliminar($id)
+    {
+
+        $this->unidades->update($id, ['activo' => 0]);
+        return redirect()->to(base_url() . '/unidades');
     }
 }

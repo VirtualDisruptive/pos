@@ -25,3 +25,121 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
  6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 21:59:32 --> Cannot redeclare App\Controllers\Unidades::insertar()
+in APPPATH\Controllers\Unidades.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-28 22:02:01 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:03:27 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:03:33 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:09:21 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:11:19 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:11:29 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:12:36 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:12:47 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:17:37 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:19:28 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:26:00 --> Undefined variable $id
+in APPPATH\Controllers\Unidades.php on line 46.
+ 1 APPPATH\Controllers\Unidades.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Unidades.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:26:20 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:32:03 --> syntax error, unexpected variable "$unidad", expecting ";" or "{"
+in APPPATH\Controllers\Unidades.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Unidades.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Unidades')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Unidades')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Unidades', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:32:12 --> syntax error, unexpected variable "$unidad", expecting ";" or "{"
+in APPPATH\Controllers\Unidades.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Unidades.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Unidades')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Unidades')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Unidades', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:32:14 --> syntax error, unexpected variable "$unidad", expecting ";" or "{"
+in APPPATH\Controllers\Unidades.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Unidades.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Unidades')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Unidades')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Unidades', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:32:21 --> syntax error, unexpected variable "$unidad", expecting ";" or "{"
+in APPPATH\Controllers\Unidades.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Unidades.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Unidades')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Unidades')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Unidades', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-28 22:34:11 --> Too few arguments to function App\Controllers\Unidades::editar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

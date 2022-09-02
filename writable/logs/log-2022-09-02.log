@@ -1,0 +1,23 @@
+CRITICAL - 2022-09-02 02:36:02 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 02:44:30 --> Too few arguments to function App\Controllers\Unidades::eliminar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->eliminar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 02:46:05 --> Too few arguments to function App\Controllers\Unidades::eliminar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->eliminar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 02:49:56 --> Too few arguments to function App\Controllers\Unidades::eliminar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Unidades.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Unidades->eliminar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
