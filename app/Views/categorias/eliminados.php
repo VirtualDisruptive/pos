@@ -1,88 +1,84 @@
-<body id="page-top">
-
-    <!-- Page Wrapper -->
-    <div id="wrapper">
-
-        <!-- Content Wrapper -->
-        <div id="content-wrapper" class="d-flex flex-column">
-
-            <!-- Main Content -->
-            <div id="content">
-
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
+<!-- Begin Page Content -->
+<div class="container-fluid">
 
 
 
-                    <!-- Page Heading -->
-                    <div>
-                        <h1 class="h3 mb-4 text-gray-800"><?php echo $titulo; ?></h1>
-                        <p class="mx-auto" style="width: 1230px">El mejor sofware creado por Virtual Disruptive.</p>
-
-                    </div>
-
-
-                    <div>
-
-                        <a href="<?php echo base_url() ?>/categorias" class="btn btn-warning">categorias </a>
-                    </div>
-
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>Id</th>
-                                            <th>Nombre</th>
-                                            <th></th>
-
-
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <?php foreach ($datos as $dato) { ?>
-                                            <tr>
-                                                <td><?php echo $dato['id'] ?></td>
-                                                <td><?php echo $dato['nombre'] ?></td>
-                                                <td><a href="<?php echo base_url() . '/categorias/reingresar/' . $dato['id']; ?>"><i class="fas fa-arrow-alt-circle-up"></i></a></td>
-
-                                            </tr>
-
-
-                                        <?php } ?>
-
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- /.container-fluid -->
-
-            </div>
-            <!-- End of Main Content -->
-
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
-
-        </div>
-        <!-- End of Content Wrapper -->
+    <!-- Page Heading -->
+    <div>
+        <h1 class="h3 mb-4 text-gray-800"><?php echo $titulo; ?></h1>
+        <p class="mb-4">El mejor sofware creado por Virtual Disruptive. Somos una de las mejores empresa de creación de sofware y de marketingdigital en Barcelona. Llegado a conseguir premios nacionale e internacionales</p>
 
     </div>
-    <!-- End of Page Wrapper -->
+
+
+    <!-- Main Content -->
+    <div id="content">
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+
+
+
+            <div>
+
+                <a href="<?php echo base_url() ?>/categorias" class="btn btn-warning">categorias </a>
+            </div>
+
+            <!-- DataTales Example -->
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Nombre</th>
+                                    <th></th>
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($datos as $dato) { ?>
+                                    <tr>
+                                        <td><?php echo $dato['id'] ?></td>
+                                        <td><?php echo $dato['nombre'] ?></td>
+                                        <td><a href="<?php echo base_url() . '/categorias/reingresar/' . $dato['id']; ?>"><i class="fas fa-arrow-alt-circle-up"></i></a></td>
+
+                                    </tr>
+
+
+                                <?php } ?>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- End of Main Content -->
+
+    <!-- Footer -->
+    <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+                <span>Copyright &copy; Your Website 2020</span>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+
+
+
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
@@ -107,24 +103,5 @@
             </div>
         </div>
     </div>
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
-    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="js/demo/datatables-demo.js"></script>
-
-</body>
-
-</html>
+</div>
+<!-- End of Content Wrapper -->
