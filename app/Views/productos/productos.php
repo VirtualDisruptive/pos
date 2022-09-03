@@ -36,9 +36,9 @@
 
 
                     <div>
-                        <a href="<?php echo base_url() ?>/unidades/nuevo" class="btn btn-info">Agregar</a>
+                        <a href="<?php echo base_url() ?>/productos/nuevo" class="btn btn-info">Agregar</a>
 
-                        <a href="<?php echo base_url() ?>/unidades/eliminados" class="btn btn-warning">eliminados</a>
+                        <a href="<?php echo base_url() ?>/productos/eliminados" class="btn btn-warning">eliminados</a>
                     </div>
 
                     <!-- DataTales Example -->
@@ -51,11 +51,13 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
+                                            <th>id</th>
+                                            <th>Código</th>
+                                            <th>Nombre</th>
+                                            <th>precio</th>
+                                            <th>Existencias</th>
+                                            <th></th>
+                                            <th></th>
 
                                         </tr>
                                     </thead>
@@ -63,12 +65,14 @@
                                         <?php foreach ($datos as $dato) { ?>
                                             <tr>
                                                 <td><?php echo $dato['id'] ?></td>
+                                                <td><?php echo $dato['codigo'] ?></td>
                                                 <td><?php echo $dato['nombre'] ?></td>
-                                                <td><?php echo $dato['nombre_corto'] ?></td>
+                                                <td><?php echo $dato['precio_venta'] ?></td>
+                                                <td><?php echo $dato['existencia'] ?></td>
 
-                                                <td><a href="<?php echo base_url() . '/unidades/editar/' . $dato['id']; ?>" class="btn btn-warning"><i class="fas fa-pencil-alt"></i></a></td>
+                                                <td><a href="<?php echo base_url() . '/productos/editar/' . $dato['id']; ?>" class="btn btn-warning"><i class="fas fa-pencil-alt"></i></a></td>
 
-                                                <td><a href="#" data-href="<?php echo base_url() . '/unidades/eliminar/' . $dato['id']; ?>" data-toggle="modal" data-target="#modal-confirma" data-placement="top" title="elimar registro" class=" btn btn-danger"><i class="fas fa-trash"></i></a></td>
+                                                <td><a href="#" data-href="<?php echo base_url() . '/productos/eliminar/' . $dato['id']; ?>" data-toggle="modal" data-target="#modal-confirma" data-placement="top" title="elimar registro" class=" btn btn-danger"><i class="fas fa-trash"></i></a></td>
 
                                             </tr>
 

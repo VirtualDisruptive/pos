@@ -44,10 +44,25 @@ $routes->get('/unidades/editar/(:num)', 'Unidades::editar/$1');
 $routes->post('/unidades/actualizar', 'Unidades::actualizar');
 $routes->get('/unidades/eliminar/(:num)', 'Unidades::eliminar/$1');
 $routes->get('/unidades/eliminados', 'Unidades::eliminados');
-
-
-
-
+$routes->get('/unidades/reingresar/(:num)', 'Unidades::reingresar/$1');
+//Categorias
+$routes->get('/categorias', 'Categorias::index');
+$routes->get('/categorias/nuevo', 'categorias::nuevo');
+$routes->post('/categorias/insertar', 'categorias::insertar');
+$routes->get('/categorias/editar/(:num)', 'categorias::editar/$1');
+$routes->post('/categorias/actualizar', 'categorias::actualizar');
+$routes->get('/categorias/eliminar/(:num)', 'categorias::eliminar/$1');
+$routes->get('/categorias/eliminados', 'categorias::eliminados');
+$routes->get('/categorias/reingresar/(:num)', 'categorias::reingresar/$1');
+//Productos
+$routes->get('/productos', 'productos::index');
+$routes->get('/productos/nuevo', 'productos::nuevo');
+$routes->post('/productos/insertar', 'productos::insertar');
+$routes->get('/productos/editar/(:num)', 'Productos::editar/$1');
+$routes->post('/productos/actualizar', 'productos::actualizar');
+$routes->get('/productos/eliminar/(:num)', 'productos::eliminar/$1');
+$routes->get('/productos/eliminados', 'productos::eliminados');
+$routes->get('/productos/reingresar/(:num)', 'productos::reingresar/$1');
 
 
 /*

@@ -21,24 +21,10 @@
 
                     </div>
 
-                    <div>
-                        <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                            <div class="input-group">
-                                <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="button">
-                                        <i class="fas fa-search fa-sm"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-
 
                     <div>
-                        <a href="<?php echo base_url() ?>/unidades/nuevo" class="btn btn-info">Agregar</a>
 
-                        <a href="<?php echo base_url() ?>/unidades/eliminados" class="btn btn-warning">eliminados</a>
+                        <a href="<?php echo base_url() ?>/productos" class="btn btn-warning">productos </a>
                     </div>
 
                     <!-- DataTales Example -->
@@ -51,11 +37,12 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
+                                            <th>id</th>
+                                            <th>Código</th>
+                                            <th>Nombre</th>
+                                            <th>precio</th>
+                                            <th>Existencias</th>
+                                            <th></th>
 
                                         </tr>
                                     </thead>
@@ -63,12 +50,12 @@
                                         <?php foreach ($datos as $dato) { ?>
                                             <tr>
                                                 <td><?php echo $dato['id'] ?></td>
+                                                <td><?php echo $dato['codigo'] ?></td>
                                                 <td><?php echo $dato['nombre'] ?></td>
-                                                <td><?php echo $dato['nombre_corto'] ?></td>
+                                                <td><?php echo $dato['precio_venta'] ?></td>
+                                                <td><?php echo $dato['existencia'] ?></td>
 
-                                                <td><a href="<?php echo base_url() . '/unidades/editar/' . $dato['id']; ?>" class="btn btn-warning"><i class="fas fa-pencil-alt"></i></a></td>
-
-                                                <td><a href="#" data-href="<?php echo base_url() . '/unidades/eliminar/' . $dato['id']; ?>" data-toggle="modal" data-target="#modal-confirma" data-placement="top" title="elimar registro" class=" btn btn-danger"><i class="fas fa-trash"></i></a></td>
+                                                <td><a href="#" data-href="<?php echo base_url() . '/productos/reingresar/' . $dato['id']; ?>" data-toggle="modal" data-target="#modal-confirma" data-placement="top" title="reingresar registro" class=" btn btn-danger"><i class="fas fa-arrow-alt-circle-up"></i></a></td>
 
                                             </tr>
 
@@ -80,6 +67,8 @@
                             </div>
                         </div>
                     </div>
+
+
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                         Launch demo modal
@@ -90,13 +79,13 @@
                         <div class="modal-dialog modal-sm" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Eliminar registro</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">Reingresar registro</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <p>¿Desea eliminar este registro?</p>
+                                    <p>¿Desea reingresar este registro?</p>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-light" data-dismiss="modal">Cancelar</button>
@@ -114,12 +103,6 @@
             <!-- End of Main Content -->
 
 
-
-        </div>
-        <!-- End of Content Wrapper -->
-
-    </div>
-    <!-- End of Page Wrapper -->
 </body>
 
 </html>

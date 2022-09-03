@@ -23,5 +23,12 @@
    <script src="<?php echo base_url(); ?>/js/demo/chart-area-demo.js"></script>
    <script src="<?php echo base_url(); ?>/js/demo/chart-pie-demo.js"></script>
 
+   <script>
+      $('#modal-confirma').on('show.bs.modal',
+         function(e) {
+            $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+         });
+   </script>
+
 </footer>
 <!-- End of Footer -->
