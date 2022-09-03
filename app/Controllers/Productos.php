@@ -10,12 +10,30 @@ use App\Models\CategoriasModel;
 class Productos extends BaseController
 {
     protected $productos;
+    protected $reglas;
 
     public function __construct()
     {
         $this->productos = new ProductosModel();
         $this->unidades = new UnidadesModel();
         $this->categorias = new CategoriasModel();
+        helper(['form']);
+
+        $this->reglas = [
+            'codigo' => [
+                'rules' => 'required|is_unique[productos.codigo]',
+                'errors' => [
+                    'required' => 'El campo {field} es obligatorio',
+                    'is_unique' => 'El campo {field} debe ser unico'
+                ]
+            ],
+            'nombre' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'El campo {field} es obligatorio'
+                ]
+            ]
+        ];
     }
 
     public function index($activo = 1)
@@ -52,7 +70,7 @@ class Productos extends BaseController
 
     public function insertar()
     {
-        if ($this->request->getMethod() === "post")
+        if ($this->request->getMethod() === "post" && $this->validate($this->reglas)) {
             $this->productos->save([
                 'codigo' => $this->request->getPost('codigo'),
                 'nombre' => $this->request->getPost('nombre'),
@@ -63,7 +81,15 @@ class Productos extends BaseController
                 'id_unidad' => $this->request->getPost('id_unidad'),
                 'id_categoria' => $this->request->getPost('id_categoria')
             ]);
-        return redirect()->to(base_url() . '/productos');
+            return redirect()->to(base_url() . '/productos');
+        } else {
+            $unidades = $this->unidades->where('activo', 1)->findAll();
+            $categorias = $this->categorias->where('activo', 1)->findAll();
+            $data = ['titulo' => 'agregar productos', 'unidades' => $unidades, 'categorias' => $categorias, 'validation' => $this->validator];
+            echo view('header');
+            echo view('productos/nuevo', $data);
+            echo view('footer');
+        }
     }
 
 
