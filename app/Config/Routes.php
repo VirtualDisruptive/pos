@@ -63,6 +63,18 @@ $routes->post('/productos/actualizar', 'productos::actualizar');
 $routes->get('/productos/eliminar/(:num)', 'productos::eliminar/$1');
 $routes->get('/productos/eliminados', 'productos::eliminados');
 $routes->get('/productos/reingresar/(:num)', 'productos::reingresar/$1');
+//clientes
+$routes->get('/clientes', 'clientes::index');
+$routes->get('/clientes/nuevo', 'clientes::nuevo');
+$routes->post('/clientes/insertar', 'clientes::insertar');
+$routes->get('/clientes/editar/(:num)', 'Clientes::editar/$1');
+$routes->post('/clientes/actualizar', 'clientes::actualizar');
+$routes->get('/clientes/eliminar/(:num)', 'clientes::eliminar/$1');
+$routes->get('/clientes/eliminados', 'clientes::eliminados');
+$routes->get('/clientes/reingresar/(:num)', 'clientes::reingresar/$1');
+//configuracion
+$routes->get('/configuracion', 'configuracion::index');
+$routes->post('/configuracion/actualizar', 'configuracion::actualizar');
 
 
 /*

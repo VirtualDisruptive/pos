@@ -85,7 +85,7 @@ class Productos extends BaseController
         } else {
             $unidades = $this->unidades->where('activo', 1)->findAll();
             $categorias = $this->categorias->where('activo', 1)->findAll();
-            $data = ['titulo' => 'agregar productos', 'unidades' => $unidades, 'categorias' => $categorias, 'validation' => $this->validator];
+            $data = ['titulo' => 'agregar producto', 'unidades' => $unidades, 'categorias' => $categorias, 'validation' => $this->validator];
             echo view('header');
             echo view('productos/nuevo', $data);
             echo view('footer');

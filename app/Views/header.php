@@ -36,21 +36,39 @@
                 </div>
                 <div class="sidebar-brand-text mx-3">Sistema web <sup>2</sup></div>
             </a>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-shopping-basket"></i>
-                    <span>Productos</span>
-                </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="<?php echo base_url(); ?>/productos">Productos</a>
-                        <a class="collapse-item" href="<?php echo base_url(); ?>/unidades">Unidades</a>
-                        <a class="collapse-item" href="<?php echo base_url(); ?>/categorias">Categorias</a>
+            <div class="nav">
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span>Productos</span>
+                    </a>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="<?php echo base_url(); ?>/productos">Productos</a>
+                            <a class="collapse-item" href="<?php echo base_url(); ?>/unidades">Unidades</a>
+                            <a class="collapse-item" href="<?php echo base_url(); ?>/categorias">Categorias</a>
+                        </div>
                     </div>
-                </div>
-            </li>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>/clientes"> <i class="fas fa-users"></i>clientes</a></li>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#subAdmin" aria-expanded="true" aria-controls="collapseTwo">
+                        <i class="fas fa-tools"></i>
+                        <span>administracion</span>
+                    </a>
+                    <div id="subAdmin" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="<?php echo base_url(); ?>/configuracion">configuracion</a>
+
+
+
+                        </div>
+                    </div>
+                </li>
+            </div>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">

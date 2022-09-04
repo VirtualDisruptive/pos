@@ -132,3 +132,225 @@ in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
 11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
 12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 18:31:34 --> Class "App\Models\ClientesModel" not found
+in APPPATH\Controllers\Clientes.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 18:32:28 --> Class "App\Models\ClientesModel" not found
+in APPPATH\Controllers\Clientes.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Clientes->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 18:46:43 --> Undefined property: App\Controllers\Clientes::$unidades
+in APPPATH\Controllers\Clientes.php on line 61.
+ 1 APPPATH\Controllers\Clientes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Clientes::$unidades', 'APPPATH\\Controllers\\Clientes.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Clientes->nuevo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 18:47:22 --> Undefined property: App\Controllers\Clientes::$unidades
+in APPPATH\Controllers\Clientes.php on line 61.
+ 1 APPPATH\Controllers\Clientes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Clientes::$unidades', 'APPPATH\\Controllers\\Clientes.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Clientes->nuevo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 19:56:23 --> Undefined array key "codigo"
+in APPPATH\Views\clientes\eliminados.php on line 58.
+ 1 APPPATH\Views\clientes\eliminados.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Views\\clientes\\eliminados.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Clientes/eliminados', [], true)
+ 5 APPPATH\Controllers\Clientes.php(49): view('Clientes/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Clientes->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 20:11:27 --> Undefined variable $producto
+in APPPATH\Views\clientes\editar.php on line 33.
+ 1 APPPATH\Views\clientes\editar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'APPPATH\\Views\\clientes\\editar.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(89): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Clientes->editar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 20:11:38 --> Undefined variable $producto
+in APPPATH\Views\clientes\editar.php on line 33.
+ 1 APPPATH\Views\clientes\editar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'APPPATH\\Views\\clientes\\editar.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(89): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Clientes->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 20:12:43 --> Undefined variable $clientes
+in APPPATH\Views\clientes\editar.php on line 33.
+ 1 APPPATH\Views\clientes\editar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH\\Views\\clientes\\editar.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(89): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Clientes->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 20:15:19 --> Undefined variable $clientes
+in APPPATH\Views\clientes\editar.php on line 27.
+ 1 APPPATH\Views\clientes\editar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH\\Views\\clientes\\editar.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(89): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Clientes->editar('7')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 20:15:32 --> Undefined variable $clientes
+in APPPATH\Views\clientes\editar.php on line 27.
+ 1 APPPATH\Views\clientes\editar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH\\Views\\clientes\\editar.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(89): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Clientes->editar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 20:20:04 --> Undefined array key "codigo"
+in APPPATH\Views\clientes\eliminados.php on line 58.
+ 1 APPPATH\Views\clientes\eliminados.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Views\\clientes\\eliminados.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Clientes/eliminados', [], true)
+ 5 APPPATH\Controllers\Clientes.php(49): view('Clientes/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Clientes->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 20:24:24 --> Undefined array key "codigo"
+in APPPATH\Views\clientes\eliminados.php on line 58.
+ 1 APPPATH\Views\clientes\eliminados.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Views\\clientes\\eliminados.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Clientes/eliminados', [], true)
+ 5 APPPATH\Controllers\Clientes.php(49): view('Clientes/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Clientes->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:11:20 --> Undefined variable $configuracion
+in APPPATH\Controllers\Configuracion.php on line 38.
+ 1 APPPATH\Controllers\Configuracion.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $configuracion', 'APPPATH\\Controllers\\Configuracion.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:13:17 --> Undefined variable $configuracion
+in APPPATH\Controllers\Configuracion.php on line 38.
+ 1 APPPATH\Controllers\Configuracion.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $configuracion', 'APPPATH\\Controllers\\Configuracion.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:16:44 --> Undefined variable $configuracion
+in APPPATH\Controllers\Configuracion.php on line 38.
+ 1 APPPATH\Controllers\Configuracion.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $configuracion', 'APPPATH\\Controllers\\Configuracion.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:18:45 --> Undefined variable $configuracion
+in APPPATH\Controllers\Configuracion.php on line 38.
+ 1 APPPATH\Controllers\Configuracion.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $configuracion', 'APPPATH\\Controllers\\Configuracion.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:18:46 --> Undefined variable $configuracion
+in APPPATH\Controllers\Configuracion.php on line 38.
+ 1 APPPATH\Controllers\Configuracion.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $configuracion', 'APPPATH\\Controllers\\Configuracion.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:20:08 --> Undefined variable $titulo
+in APPPATH\Views\configuracion\configuracion.php on line 8.
+ 1 APPPATH\Views\configuracion\configuracion.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'APPPATH\\Views\\configuracion\\configuracion.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(41): view('configuracion/configuracion')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:20:52 --> Undefined variable $titulo
+in APPPATH\Views\configuracion\configuracion.php on line 8.
+ 1 APPPATH\Views\configuracion\configuracion.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'APPPATH\\Views\\configuracion\\configuracion.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(41): view('configuracion/configuracion')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:56:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\configuracion\configuracion.php on line 51.
+ 1 APPPATH\Views\configuracion\configuracion.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\configuracion\\configuracion.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(46): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:58:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\configuracion\configuracion.php on line 51.
+ 1 APPPATH\Views\configuracion\configuracion.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\configuracion\\configuracion.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(46): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:58:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\configuracion\configuracion.php on line 51.
+ 1 APPPATH\Views\configuracion\configuracion.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\configuracion\\configuracion.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(46): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 21:58:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\configuracion\configuracion.php on line 51.
+ 1 APPPATH\Views\configuracion\configuracion.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\configuracion\\configuracion.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(46): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-03 22:41:14 --> Undefined variable $configuracion
+in APPPATH\Controllers\Configuracion.php on line 53.
+ 1 APPPATH\Controllers\Configuracion.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $configuracion', 'APPPATH\\Controllers\\Configuracion.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

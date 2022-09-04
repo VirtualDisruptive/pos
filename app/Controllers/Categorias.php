@@ -5,13 +5,26 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\CategoriasModel;
 
+
+
 class Categorias extends BaseController
 {
     protected $categorias;
+    protected $reglas;
 
     public function __construct()
     {
         $this->categorias = new CategoriasModel();
+        helper(['form']);
+
+        $this->reglas = [
+            'nombre' => [
+                'rules' => 'required[categorias.nombre]',
+                'errors' => [
+                    'required' => 'El campo {field} es obligatorio',
+                ]
+            ]
+        ];
     }
 
     public function index($activo = 1)
@@ -46,9 +59,15 @@ class Categorias extends BaseController
 
     public function insertar()
     {
-
-        $this->categorias->save(['nombre' => $this->request->getPost('nombre')]);
-        return redirect()->to(base_url() . '/categorias');
+        if ($this->request->getMethod() === "post" && $this->validate($this->reglas)) {
+            $this->categorias->save(['nombre' => $this->request->getPost('nombre')]);
+            return redirect()->to(base_url() . '/categorias');
+        } else {
+            $data = ['titulo' => 'agregar Categoria', 'validation' => $this->validator];
+            echo view('header');
+            echo view('/Categorias/nuevo', $data);
+            echo view('footer');
+        }
     }
 
 

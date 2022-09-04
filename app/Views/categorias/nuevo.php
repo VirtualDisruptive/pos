@@ -1,15 +1,27 @@
 <!-- Page Heading -->
-<div class="container">
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div>
+        <h1 class="h3 mb-4 text-gray-800"><?php echo $titulo; ?></h1>
+        <p class="mb-4">El mejor sofware creado por Virtual Disruptive. Somos una de las mejores empresa de creación de sofware y de marketingdigital en Barcelona. Llegado a conseguir premios nacionale e internacionales</p>
+
+    </div>
     <main>
         <div>
             <h4 class=" xxl-1 text-gray-800"><?php echo $titulo; ?></h4>
+
+            <?php if (isset($validation)) { ?>
+                <div class="alert alert-danger" role="alert">
+                    <?php echo \Config\Services::validation()->listErrors(); ?>
+                </div>
+            <?php } ?>
 
             <form method="POST" action="<?php echo base_url(); ?>/categorias/insertar" autocomplete="off">
                 <div class="form-group">
                     <div class="row">
                         <div class="col-12 col-sm-6">
                             <label>Nombre</label>
-                            <input class="form-control" id="nombre" name="nombre" type="text" autofocus require />
+                            <input class="form-control" id="nombre" name="nombre" type="text" required autofocus />
                         </div>
 
 

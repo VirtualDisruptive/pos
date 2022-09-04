@@ -1,19 +1,18 @@
 <!-- Begin Page Content -->
 <div class="container-fluid">
 
-
-
     <!-- Page Heading -->
     <div>
-        <h1 class="h3 mb-4 text-gray-800"><?php echo $titulo; ?></h1>
+        <h1 class="h3 mb-2 text-gray-800"><?php echo $titulo; ?></h1>
         <p class="mb-4">El mejor sofware creado por Virtual Disruptive. Somos una de las mejores empresa de creación de sofware y de marketingdigital en Barcelona. Llegado a conseguir premios nacionale e internacionales</p>
 
     </div>
 
-    <div>
-        <a href="<?php echo base_url() ?>/unidades/nuevo" class="btn btn-info">Agregar</a>
 
-        <a href="<?php echo base_url() ?>/unidades/eliminados" class="btn btn-warning">eliminados</a>
+    <div class="d-grid gap-2 d-md-block">
+        <a href="<?php echo base_url() ?>/clientes/nuevo" class="btn btn-info">Agregar</a>
+
+        <a href="<?php echo base_url() ?>/clientes/eliminados" class="btn btn-warning">eliminados</a>
     </div>
 
     <!-- DataTales Example -->
@@ -23,14 +22,16 @@
         </div>
         <div class="card-body">
             <div class="table-responsive">
-                <table class="table table-bordered " id="dataTable" width="100%" cellspacing="0">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
                         <tr>
-                            <th scope="col">Name</th>
-                            <th scope="col">Position</th>
-                            <th scope="col">Office</th>
-                            <th scope="col">Age</th>
-                            <th scope="col">Start date</th>
+                            <th>id</th>
+                            <th>nombre</th>
+                            <th>direccion</th>
+                            <th>telefono</th>
+                            <th>correo</th>
+                            <th></th>
+                            <th></th>
 
                         </tr>
                     </thead>
@@ -39,11 +40,13 @@
                             <tr>
                                 <td><?php echo $dato['id'] ?></td>
                                 <td><?php echo $dato['nombre'] ?></td>
-                                <td><?php echo $dato['nombre_corto'] ?></td>
+                                <td><?php echo $dato['direccion'] ?></td>
+                                <td><?php echo $dato['telefono'] ?></td>
+                                <td><?php echo $dato['correo'] ?></td>
 
-                                <td><a href="<?php echo base_url() . '/unidades/editar/' . $dato['id']; ?>" class="btn btn-warning"><i class="fas fa-pencil-alt"></i></a></td>
+                                <td><a href="<?php echo base_url() . '/clientes/editar/' . $dato['id']; ?>" class="btn btn-warning"><i class="fas fa-pencil-alt"></i></a></td>
 
-                                <td><a href="#" data-href="<?php echo base_url() . '/unidades/eliminar/' . $dato['id']; ?>" data-toggle="modal" data-target="#modal-confirma" data-placement="top" title="elimar registro" class=" btn btn-danger"><i class="fas fa-trash"></i></a></td>
+                                <td><a href="#" data-href="<?php echo base_url() . '/clientes/eliminar/' . $dato['id']; ?>" data-toggle="modal" data-target="#modal-confirma" data-placement="top" title="elimar registro" class=" btn btn-danger"><i class="fas fa-trash"></i></a></td>
 
                             </tr>
 
@@ -77,29 +80,6 @@
                     <button type="button" class="btn btn-light" data-dismiss="modal">Cancelar</button>
                     <button type="button" class="btn btn-light" data-dismiss="modal">NO</button>
                     <a class="btn btn-danger btn-ok">Si</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
-
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
                 </div>
             </div>
         </div>
