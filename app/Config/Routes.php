@@ -17,8 +17,8 @@ if (is_file(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
-$routes->setDefaultMethod('index');
+$routes->setDefaultController('Usuarios');
+$routes->setDefaultMethod('login');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
@@ -35,7 +35,7 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Usuarios::login');
 $routes->get('/productos', 'productos::index');
 $routes->get('/unidades', 'Unidades::index');
 $routes->get('/unidades/nuevo', 'Unidades::nuevo');
@@ -75,6 +75,15 @@ $routes->get('/clientes/reingresar/(:num)', 'clientes::reingresar/$1');
 //configuracion
 $routes->get('/configuracion', 'configuracion::index');
 $routes->post('/configuracion/actualizar', 'configuracion::actualizar');
+//usuarios
+$routes->get('/usuarios', 'usuarios::index');
+$routes->get('/usuarios/nuevo', 'usuarios::nuevo');
+$routes->post('/usuarios/insertar', 'usuarios::insertar');
+$routes->get('/usuarios/editar/(:num)', 'usuarios::editar/$1');
+$routes->post('/usuarios/actualizar', 'usuarios::actualizar');
+$routes->get('/usuarios/eliminar/(:num)', 'usuarios::eliminar/$1');
+$routes->get('/usuarios/eliminados', 'usuarios::eliminados');
+$routes->get('/usuarios/reingresar/(:num)', 'usuarios::reingresar/$1');
 
 
 /*
