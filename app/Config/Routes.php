@@ -84,6 +84,14 @@ $routes->post('/usuarios/actualizar', 'usuarios::actualizar');
 $routes->get('/usuarios/eliminar/(:num)', 'usuarios::eliminar/$1');
 $routes->get('/usuarios/eliminados', 'usuarios::eliminados');
 $routes->get('/usuarios/reingresar/(:num)', 'usuarios::reingresar/$1');
+$routes->post('/usuarios/valida', 'usuarios::valida');
+//Logout
+$routes->get('/usuarios/logout', 'usuarios::logout');
+//cambia_password
+$routes->get('/usuarios/cambia_password','usuarios::cambia_password');
+$routes->post('/usuarios/actualizar_password','usuarios::actualizar_password');
+
+
 
 
 /*

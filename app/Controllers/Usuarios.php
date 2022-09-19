@@ -10,7 +10,7 @@ use App\Models\RolesModel;
 class Usuarios extends BaseController
 {
     protected $usuarios, $cajas, $roles;
-    protected $reglas;
+    protected $reglas, $reglasLogin, $reglascambia;
 
     public function __construct()
     {
@@ -58,8 +58,42 @@ class Usuarios extends BaseController
                     'required' => 'El campo {field} es obligatorio',
                 ]
             ]
+
+            
         
         ];
+
+        $this->reglasLogin = [
+            'usuario' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'El campo {field} es obligatorio'
+                ]
+            ],
+            'password' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'El campo {field} es obligatorio'
+                ]
+            ],
+        ];
+        
+        $this-> reglascambia = [
+            'password' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'El campo {field} es obligatorio'
+                ]
+            ],
+            'repassword' => [
+                'rules' => 'required|matches[password]',
+                'errors' => [
+                    'required' => 'El campo {field} es obligatorio',
+                    'matches' => 'Las contraseña no coinciden'
+                ]
+            ],
+        ];
+       
     }
 
     public function index($activo = 1)
@@ -161,5 +195,80 @@ class Usuarios extends BaseController
 
     public function login(){
         echo view('usuarios/login');
+    }
+
+    public function valida(){
+        if ($this->request->getMethod() === "post" && $this->validate($this->reglasLogin)) {
+            $usuario=$this->request->getPost('usuario');
+            $password=$this->request->getPost('password');
+            $datoUsuario = $this->usuarios->where('usuario', $usuario)->first();
+
+            if($datoUsuario !=null){
+               if(password_verify($password, $datoUsuario['password'])){
+                $datosSesion = [
+                    'id_usuario'=>$datoUsuario['id'],
+                    'nombre'=>$datoUsuario['nombre'],
+                    'id_caja'=>$datoUsuario['id_caja'],
+                    'id_rol'=>$datoUsuario['id_rol']
+                ];
+                $session =session();
+                $session->set($datosSesion);
+                return redirect()->to(base_url().'/configuracion');
+
+               } else {
+                $data['error']="Las contraseña no coinciden";
+                echo view('usuarios/login', $data);
+               }
+            }else{
+                $data['error']="El usuario no existe";
+                echo view('usuarios/login', $data);
+            }
+         } else{
+            $data = ['validation'=> $this-> validator];
+            echo view ('usuarios/login', $data);
+         }
+
+    }
+
+    public function logout ()
+    {
+        $session=session();
+        $session->destroy(); 
+        return redirect()->to(base_url());
+    }
+
+    public function cambia_password()
+    {
+        $session = session();
+        $usuario = $this->usuarios->where('id', $session->id_usuario)->first();
+        $data = ['titulo' => 'Cambiar contraseña','usuario'=> $usuario];
+        echo view('header');
+        echo view('/usuarios/cambia_password', $data);
+        echo view('footer');
+    }
+
+    public function actualizar_password()
+    {
+        if ($this->request->getMethod() === "post" && $this->validate($this->reglascambia)) {
+            $session= session();
+            $idUsuario =$session->id_usuario;
+            $hash = password_hash($this->request->getPost('password'),PASSWORD_DEFAULT);
+            $this->usuarios->update($idUsuario,['password'=>$hash]);
+
+
+            $usuario = $this->usuarios->where('id', $session->id_usuario)->first();
+            $data = ['titulo' => 'Cambiar contraseña','usuario'=> $usuario,'mensaje'=>'Contraseña Actualizada'];
+            echo view('header');
+            echo view('/usuarios/cambia_password', $data);
+            echo view('footer');
+        } else {
+        $session = session();
+        $usuario = $this->usuarios->where('id', $session->id_usuario)->first();
+        $data = ['titulo' => 'Cambiar contraseña','usuario'=> $usuario, 'validation' => $this->validator];
+        echo view('header');
+        echo view('/usuarios/cambia_password', $data);
+        echo view('footer');
+        }
+
     }
 }
