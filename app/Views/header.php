@@ -58,7 +58,23 @@ $user_session=session();
                     </div>
                 </li>
 
+                
+
                 <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>/clientes"> <i class="fas fa-users"></i>clientes</a></li>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menucompras" aria-expanded="true" aria-controls="menucompras">
+                        <i class="fas fa-cash-register"></i>
+                        <span>Compras</span>
+                    </a>
+                    <div id="menucompras" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="<?php echo base_url(); ?>/compras/nuevo">Nueva compra</a>
+                            <a class="collapse-item" href="<?php echo base_url(); ?>/compras">Compra</a>
+                        
+                        </div>
+                    </div>
+                </li>
 
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#subAdmin" aria-expanded="true" aria-controls="collapseTwo">

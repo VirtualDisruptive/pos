@@ -90,6 +90,9 @@ $routes->get('/usuarios/logout', 'usuarios::logout');
 //cambia_password
 $routes->get('/usuarios/cambia_password','usuarios::cambia_password');
 $routes->post('/usuarios/actualizar_password','usuarios::actualizar_password');
+//Compras
+$routes->get('/compras','usuario::compras');
+$routes->get('/commpras/nuevo','usuario::compras_nuevo');
 
 
 
