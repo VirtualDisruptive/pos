@@ -88,11 +88,26 @@ $routes->post('/usuarios/valida', 'usuarios::valida');
 //Logout
 $routes->get('/usuarios/logout', 'usuarios::logout');
 //cambia_password
-$routes->get('/usuarios/cambia_password','usuarios::cambia_password');
-$routes->post('/usuarios/actualizar_password','usuarios::actualizar_password');
+$routes->get('/usuarios/cambia_password', 'usuarios::cambia_password');
+$routes->post('/usuarios/actualizar_password', 'usuarios::actualizar_password');
 //Compras
-$routes->get('/compras','usuario::compras');
-$routes->get('/commpras/nuevo','usuario::compras_nuevo');
+$routes->get('/compras/nuevo', 'compras::nuevo');
+//ajax
+$routes->get('/productos/buscarPorCodigo/(:num)', 'productos::buscarPorCodigo/$1');
+
+//Temporal
+$routes->get('/TemporalCompra/insertar/(:num)/(:any)/(:any)', 'TemporalCompra::insertar/$1/$2/$3');
+//eliminar
+$routes->get('/TemporalCompra/eliminar/(:num)/(:any)', 'TemporalCompra::eliminar/$1/$2/$3');
+//Compras guarda4
+$routes->post('compras/guarda', 'Compras::guarda');
+
+
+
+
+
+
+
 
 
 

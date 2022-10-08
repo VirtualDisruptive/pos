@@ -1,0 +1,325 @@
+CRITICAL - 2022-10-04 20:19:58 --> Class 'app\models\ProductosModel' not found
+in APPPATH\Controllers\temporalCompra.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\TemporalCompra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:25:14 --> Class 'app\models\ProductosModel' not found
+in APPPATH\Controllers\temporalCompra.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\TemporalCompra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:26:31 --> Class 'app\models\ComprasModel' not found
+in APPPATH\Controllers\temporalCompra.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\TemporalCompra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:28:53 --> Class 'app\models\ProductosModel' not found
+in APPPATH\Controllers\temporalCompra.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\TemporalCompra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:28:58 --> Class 'app\models\ProductosModel' not found
+in APPPATH\Controllers\temporalCompra.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\TemporalCompra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:29:58 --> Class 'app\models\ProductosModel' not found
+in APPPATH\Controllers\temporalCompra.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\TemporalCompra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:29:59 --> Class 'app\models\ProductosModel' not found
+in APPPATH\Controllers\temporalCompra.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\TemporalCompra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:30:09 --> Class 'app\models\ProductosModel' not found
+in APPPATH\Controllers\temporalCompra.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\TemporalCompra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 20:35:39 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Models\TemporalCompraModel.php(32): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\app\Controllers\temporalCompra.php(28): App\models\TemporalCompraModel->porIdProductoCompra('4', '633cdf666b150')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633cdf666b150')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-04 20:35:39 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` IS NULL
+AND `id_producto` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` IS NULL
+AND `id_producto` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` IS NULL
+AND `id_producto` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` IS NULL
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(32): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\temporalCompra.php(28): App\models\TemporalCompraModel->porIdProductoCompra('4', '633cdf666b150')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633cdf666b150')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 20:35:46 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'pos', 3306, '', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\Configuracion.php(36): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pos\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\pos\app\Controllers\Configuracion.php(36): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-04 20:35:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `configuracion`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Configuracion.php(36): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 20:35:52 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'pos', 3306, '', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\app\Controllers\Productos.php(143): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pos\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pos\app\Controllers\Productos.php(143): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-04 20:35:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `codigo` = :codigo:
+AND `activo` = :activo:', [...], false)
+ 3 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Productos.php(143): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 20:35:55 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'pos', 3306, '', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pos\app\Controllers\temporalCompra.php(25): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633cdf666b150')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pos\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\pos\app\Controllers\temporalCompra.php(25): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633cdf666b150')
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-04 20:35:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\temporalCompra.php(25): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633cdf666b150')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 21:09:58 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\temporalCompra.php on line 66.
+ 1 APPPATH\Controllers\temporalCompra.php(50): App\Controllers\TemporalCompra->cargarProductos('633ce772b367a')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633ce772b367a')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 21:09:59 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\temporalCompra.php on line 66.
+ 1 APPPATH\Controllers\temporalCompra.php(50): App\Controllers\TemporalCompra->cargarProductos('633ce772b367a')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633ce772b367a')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 21:23:28 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\temporalCompra.php on line 66.
+ 1 APPPATH\Controllers\temporalCompra.php(50): App\Controllers\TemporalCompra->cargarProductos('633cea9ca169b')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633cea9ca169b')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 21:23:29 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\temporalCompra.php on line 66.
+ 1 APPPATH\Controllers\temporalCompra.php(50): App\Controllers\TemporalCompra->cargarProductos('633cea9ca169b')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633cea9ca169b')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 21:23:52 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\temporalCompra.php on line 66.
+ 1 APPPATH\Controllers\temporalCompra.php(50): App\Controllers\TemporalCompra->cargarProductos('633ceaab0b9f9')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633ceaab0b9f9')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 21:24:00 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\temporalCompra.php on line 66.
+ 1 APPPATH\Controllers\temporalCompra.php(50): App\Controllers\TemporalCompra->cargarProductos('633ceaab0b9f9')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633ceaab0b9f9')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 21:24:07 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\temporalCompra.php on line 66.
+ 1 APPPATH\Controllers\temporalCompra.php(50): App\Controllers\TemporalCompra->cargarProductos('633ceaab0b9f9')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633ceaab0b9f9')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 21:24:22 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\temporalCompra.php on line 66.
+ 1 APPPATH\Controllers\temporalCompra.php(50): App\Controllers\TemporalCompra->cargarProductos('633ceaab0b9f9')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633ceaab0b9f9')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 21:24:22 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\temporalCompra.php on line 66.
+ 1 APPPATH\Controllers\temporalCompra.php(50): App\Controllers\TemporalCompra->cargarProductos('633ceaab0b9f9')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\TemporalCompra->insertar('4', '1', '633ceaab0b9f9')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 22:18:52 --> syntax error, unexpected '}'
+in APPPATH\Controllers\temporalCompra.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\temporalCompra.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TemporalCompra')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TemporalCompra')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\TemporalCompra')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\TemporalCompra', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 22:18:53 --> syntax error, unexpected '}'
+in APPPATH\Controllers\temporalCompra.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\temporalCompra.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TemporalCompra')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TemporalCompra')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\TemporalCompra')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\TemporalCompra', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 22:18:54 --> syntax error, unexpected '}'
+in APPPATH\Controllers\temporalCompra.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\temporalCompra.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TemporalCompra')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TemporalCompra')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\TemporalCompra')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\TemporalCompra', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 22:18:54 --> syntax error, unexpected '}'
+in APPPATH\Controllers\temporalCompra.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\temporalCompra.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TemporalCompra')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TemporalCompra')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\TemporalCompra')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\TemporalCompra', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

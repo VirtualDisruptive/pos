@@ -1,0 +1,77 @@
+CRITICAL - 2022-09-29 15:39:30 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:39:31 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:39:31 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:39:31 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:39:31 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:39:31 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:39:32 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:39:32 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:40:47 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:40:48 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:40:48 --> Undefined property: App\Controllers\Productos::$produtos
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 APPPATH\Controllers\Productos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Productos::$produtos', 'APPPATH\\Controllers\\Productos.php', 143, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Productos->buscarPorCodigo('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

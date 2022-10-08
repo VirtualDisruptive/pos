@@ -1,5 +1,5 @@
 <?php
-$user_session=session();
+$user_session = session();
 
 
 ?>
@@ -58,7 +58,7 @@ $user_session=session();
                     </div>
                 </li>
 
-                
+
 
                 <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>/clientes"> <i class="fas fa-users"></i>clientes</a></li>
 
@@ -71,7 +71,7 @@ $user_session=session();
                         <div class="bg-white py-2 collapse-inner rounded">
                             <a class="collapse-item" href="<?php echo base_url(); ?>/compras/nuevo">Nueva compra</a>
                             <a class="collapse-item" href="<?php echo base_url(); ?>/compras">Compra</a>
-                        
+
                         </div>
                     </div>
                 </li>
@@ -268,7 +268,7 @@ $user_session=session();
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $user_session->nombre;?></span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $user_session->nombre; ?></span>
                                 <img class="img-profile rounded-circle" src="<?php echo base_url('img/undraw_profile.svg'); ?>">
                             </a>
                             <!-- Dropdown - User Information -->

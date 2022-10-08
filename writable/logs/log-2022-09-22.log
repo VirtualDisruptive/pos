@@ -1,0 +1,22 @@
+CRITICAL - 2022-09-22 16:49:37 --> Undefined variable: titulo
+in APPPATH\Views\compras\nuevo.php on line 8.
+ 1 APPPATH\Views\compras\nuevo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: titulo', 'APPPATH\\Views\\compras\\nuevo.php', 8, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('/compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(46): view('/compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 16:50:17 --> Undefined variable: titulo
+in APPPATH\Views\compras\nuevo.php on line 8.
+ 1 APPPATH\Views\compras\nuevo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: titulo', 'APPPATH\\Views\\compras\\nuevo.php', 8, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('/compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(46): view('/compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

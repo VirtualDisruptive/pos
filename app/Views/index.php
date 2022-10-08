@@ -347,6 +347,10 @@
                     </div>
                 </div>
             </div>
+
+            <div>
+                <h1>Hola</h1>
+            </div>
             <div class="col-lg-6 mb-4">
                 <div class="card bg-success text-white shadow">
                     <div class="card-body">
