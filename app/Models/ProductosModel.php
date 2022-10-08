@@ -12,7 +12,7 @@ class ProductosModel extends Model
     protected $returnType     = 'array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['codigo', 'nombre', 'precio_venta', 'precio_compra', 'existencias', 'stock_minimo', 'inventariable', 'id_unidad', 'id_categoria', 'activo'];
+    protected $allowedFields = ['codigo', 'nombre', 'precio_venta', 'precio_compra', 'existencia', 'stock_minimo', 'inventariable', 'id_unidad', 'id_categoria', 'activo'];
 
     protected $useTimestamps = true;
     protected $createdField  = 'fecha_alta';
@@ -25,7 +25,8 @@ class ProductosModel extends Model
 
     public function actualizaStock($id_producto, $cantidad)
     {
-        $this->set('existencia', "existencia + $cantidad", FALSE);
+        $this->set('existencia', "existencia - $cantidad", FALSE);
         $this->where('id', $id_producto);
+        $this->update();
     }
 }

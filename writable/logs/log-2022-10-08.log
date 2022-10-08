@@ -1,0 +1,78 @@
+ERROR - 2022-10-08 01:25:16 --> mysqli_sql_exception: Column 'id_usuario' cannot be null in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pos\app\Models\ComprasModel.php(31): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pos\app\Controllers\Compras.php(59): App\models\ComprasModel->insertaCompra('6340c0e005a3c', '52.00', NULL)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(904): App\Controllers\Compras->guarda()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-08 01:25:16 --> Column 'id_usuario' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `compras` (`folio`, `total`, `id_usuario`, `fecha_alta`) VALUES (\'6340c0e005a3c\', \'52.00\', NULL, \'2022-10-08 01:25:16\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `compras` (`folio`, `total`, `id_usuario`, `fecha_alta`) VALUES (\'6340c0e005a3c\', \'52.00\', NULL, \'2022-10-08 01:25:16\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `compras` (`folio`, `total`, `id_usuario`, `fecha_alta`) VALUES (\'6340c0e005a3c\', \'52.00\', NULL, \'2022-10-08 01:25:16\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `compras` (`folio`, `total`, `id_usuario`, `fecha_alta`) VALUES (:folio:, :total:, :id_usuario:, :fecha_alta:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\ComprasModel.php(31): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Compras.php(59): App\models\ComprasModel->insertaCompra('6340c0e005a3c', '52.00', null)
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->guarda()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 01:25:58 --> Undefined property: App\Controllers\Compras::$temporal_Compra
+in APPPATH\Controllers\Compras.php on line 79.
+ 1 APPPATH\Controllers\Compras.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Compras::$temporal_Compra', 'APPPATH\\Controllers\\Compras.php', 79, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 01:32:48 --> Undefined property: App\Controllers\Compras::$temporal_Compra
+in APPPATH\Controllers\Compras.php on line 79.
+ 1 APPPATH\Controllers\Compras.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Compras::$temporal_Compra', 'APPPATH\\Controllers\\Compras.php', 79, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 01:38:39 --> Undefined property: App\Controllers\Compras::$temporal_Compra
+in APPPATH\Controllers\Compras.php on line 79.
+ 1 APPPATH\Controllers\Compras.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Compras::$temporal_Compra', 'APPPATH\\Controllers\\Compras.php', 79, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 01:51:06 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Models\ProductosModel.php(30): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Compras.php(77): App\models\ProductosModel->actualizaStock('4', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->guarda()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 01:55:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Models\ProductosModel.php(30): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Compras.php(77): App\models\ProductosModel->actualizaStock('4', '3')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->guarda()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 01:56:35 --> Call to a member function eliminarCompra() on null
+in APPPATH\Controllers\Compras.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

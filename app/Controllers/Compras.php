@@ -10,7 +10,7 @@ use App\Models\ProductosModel;
 
 class Compras extends BaseController
 {
-    protected $compras, $Temporal_compra, $detalle_compra, $productos;
+    protected $compras, $temporal_compra, $detalle_compra, $productos;
     protected $reglas;
 
     public function __construct()
@@ -76,7 +76,7 @@ class Compras extends BaseController
                 $this->productos = new ProductosModel();
                 $this->productos->actualizaStock($row['id_producto'], $row['cantidad']);
             }
-            $this->temporal_Compra->eliminarCompra($id_compra);
+            $this->temporal_compra->eliminarCompra($id_compra);
         }
         return redirect()->to(base_url() . "/productos");
     }
