@@ -1,0 +1,92 @@
+CRITICAL - 2022-11-28 11:24:37 --> Undefined index: 
+in APPPATH\Controllers\Compras.php on line 142.
+ 1 APPPATH\Controllers\Compras.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH\\Controllers\\Compras.php', 142, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 11:25:05 --> Undefined index: 
+in APPPATH\Controllers\Compras.php on line 142.
+ 1 APPPATH\Controllers\Compras.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH\\Controllers\\Compras.php', 142, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 11:29:51 --> Undefined index: Nombre
+in APPPATH\Controllers\Compras.php on line 145.
+ 1 APPPATH\Controllers\Compras.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Nombre', 'APPPATH\\Controllers\\Compras.php', 145, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 11:29:52 --> Undefined index: Nombre
+in APPPATH\Controllers\Compras.php on line 145.
+ 1 APPPATH\Controllers\Compras.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Nombre', 'APPPATH\\Controllers\\Compras.php', 145, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 11:44:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Compras.php on line 121.
+ 1 APPPATH\Controllers\Compras.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Compras.php', 121, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('25')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 11:44:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Compras.php on line 121.
+ 1 APPPATH\Controllers\Compras.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Compras.php', 121, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('26')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 11:44:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Compras.php on line 121.
+ 1 APPPATH\Controllers\Compras.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Compras.php', 121, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('20')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 11:45:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Compras.php on line 121.
+ 1 APPPATH\Controllers\Compras.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Compras.php', 121, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 11:47:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Compras.php on line 121.
+ 1 APPPATH\Controllers\Compras.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Compras.php', 121, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 11:58:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Compras.php on line 121.
+ 1 APPPATH\Controllers\Compras.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Compras.php', 121, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('200')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 12:28:06 --> Undefined variable: datos
+in APPPATH\Views\compras\compras.php on line 38.
+ 1 APPPATH\Views\compras\compras.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\compras\\compras.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(34): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 12:52:04 --> Undefined variable: dato
+in APPPATH\Views\compras\compras.php on line 40.
+ 1 APPPATH\Views\compras\compras.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dato', 'APPPATH\\Views\\compras\\compras.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(34): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

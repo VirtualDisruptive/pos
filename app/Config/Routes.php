@@ -92,6 +92,7 @@ $routes->get('/usuarios/cambia_password', 'usuarios::cambia_password');
 $routes->post('/usuarios/actualizar_password', 'usuarios::actualizar_password');
 //Compras
 $routes->get('/compras/nuevo', 'compras::nuevo');
+$routes->get('/compras', 'compras::index');
 //ajax
 $routes->get('/productos/buscarPorCodigo/(:num)', 'productos::buscarPorCodigo/$1');
 
@@ -101,6 +102,10 @@ $routes->get('/TemporalCompra/insertar/(:num)/(:any)/(:any)', 'TemporalCompra::i
 $routes->get('/TemporalCompra/eliminar/(:num)/(:any)', 'TemporalCompra::eliminar/$1/$2/$3');
 //Compras guarda4
 $routes->post('compras/guarda', 'Compras::guarda');
+//pdf
+$routes->get('/compras/muestraCompraPdf/(:num)', 'Compras::muestraCompraPdf/$1');
+$routes->get('/Compras/generaCompraPdf/(:num)', 'Compras::generaCompraPdf/$1');
+
 
 
 

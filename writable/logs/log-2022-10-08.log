@@ -76,3 +76,127 @@ in APPPATH\Controllers\Compras.php on line 79.
  2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
  3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:07:29 --> Invalid file: compras/ver_compra.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compras/ver_compra.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('compras/ver_compra', [], true)
+ 3 APPPATH\Controllers\Compras.php(87): view('compras/ver_compra')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->muestraCompraPdf('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:08:58 --> Invalid file: compras/ver_compra.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compras/ver_compra.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('compras/ver_compra', [], true)
+ 3 APPPATH\Controllers\Compras.php(87): view('compras/ver_compra')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->muestraCompraPdf('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:09:23 --> syntax error, unexpected '}', expecting '('
+in APPPATH\Controllers\Compras.php on line 92.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Compras.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Compras')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Compras')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Compras')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Compras', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:09:39 --> Invalid file: compras/ver_compra_pdf.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compras/ver_compra_pdf.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('compras/ver_compra_pdf', [], true)
+ 3 APPPATH\Controllers\Compras.php(87): view('compras/ver_compra_pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->muestraCompraPdf('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:10:59 --> Invalid file: clientes/ver_compra_pdf.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/ver_compra_pdf.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('clientes/ver_compra_pdf', [], true)
+ 3 APPPATH\Controllers\Compras.php(87): view('clientes/ver_compra_pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->muestraCompraPdf('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:12:07 --> Undefined variable: id_compra
+in APPPATH\Views\compras\vercompraspdf.php on line 7.
+ 1 APPPATH\Views\compras\vercompraspdf.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_compra', 'APPPATH\\Views\\compras\\vercompraspdf.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\vercompraspdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('compras/vercompraspdf', [], true)
+ 5 APPPATH\Controllers\Compras.php(87): view('compras/vercompraspdf')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->muestraCompraPdf('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:12:55 --> Undefined variable: id_compra
+in APPPATH\Views\compras\ver_compras_pdf.php on line 7.
+ 1 APPPATH\Views\compras\ver_compras_pdf.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_compra', 'APPPATH\\Views\\compras\\ver_compras_pdf.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\ver_compras_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('compras/ver_compras_pdf', [], true)
+ 5 APPPATH\Controllers\Compras.php(87): view('compras/ver_compras_pdf')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->muestraCompraPdf('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:22:36 --> Invalid file: compras/ver_compras_pdfa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compras/ver_compras_pdfa.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('compras/ver_compras_pdfa', [], true)
+ 3 APPPATH\Controllers\Compras.php(91): view('compras/ver_compras_pdfa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->muestraCompraPdf('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:55:12 --> Undefined variable: titulo
+in APPPATH\Views\compras\ver_compras_pdf.php on line 4.
+ 1 APPPATH\Views\compras\ver_compras_pdf.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: titulo', 'APPPATH\\Views\\compras\\ver_compras_pdf.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\ver_compras_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('compras/ver_compras_pdf', [], true)
+ 5 APPPATH\Controllers\Compras.php(91): view('compras/ver_compras_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->muestraCompraPdf('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 13:07:06 --> syntax error, unexpected ''setHeader'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Controllers\Compras.php on line 112.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Compras.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Compras')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Compras')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Compras')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Compras', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 13:10:15 --> Call to undefined method CodeIgniter\HTTP\Response::writeHead()
+in APPPATH\Controllers\Compras.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:25:14 --> strpos() expects parameter 1 to be string, array given
+in APPPATH\ThirdParty\fpdf\fpdf.php on line 1138.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, array given', 'APPPATH\\ThirdParty\\fpdf\\fpdf.php', 1138, [...])
+ 2 APPPATH\ThirdParty\fpdf\fpdf.php(1138): strpos([...], '(')
+ 3 APPPATH\ThirdParty\fpdf\fpdf.php(616): FPDF->_escape([...])
+ 4 APPPATH\Controllers\Compras.php(120): FPDF->Cell(50, 5, [...], 0, 1, 'L')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('1')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:25:22 --> strpos() expects parameter 1 to be string, array given
+in APPPATH\ThirdParty\fpdf\fpdf.php on line 1138.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, array given', 'APPPATH\\ThirdParty\\fpdf\\fpdf.php', 1138, [...])
+ 2 APPPATH\ThirdParty\fpdf\fpdf.php(1138): strpos([...], '(')
+ 3 APPPATH\ThirdParty\fpdf\fpdf.php(616): FPDF->_escape([...])
+ 4 APPPATH\Controllers\Compras.php(120): FPDF->Cell(50, 5, [...], 0, 1, 'L')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Compras->generaCompraPdf('1')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
